@@ -79,3 +79,67 @@ const myAge = 36;
 const drivingAge = 17;
 const oldEnough = myAge >= drivingAge;
 console.log("Am I old enough to drive? " + oldEnough);
+
+// ****************************************************HOMEWORK****************************************************
+
+function calculator(num1, num2) {
+  const calcAddition = num1 + num2;
+  const calcSubtraction = num1 - num2;
+  const calcMultiplication = num1 * num2;
+  const calcDivision = num1 / num2;
+  return (
+    "Addition: " +
+    calcAddition +
+    ", Subtraction: " +
+    calcSubtraction +
+    ", Multiplication: " +
+    calcMultiplication +
+    ", Division: " +
+    calcDivision
+  );
+}
+
+console.log(calculator(3, 4));
+
+function whoIsOlder(firstPerson, secondPerson) {
+  if (firstPerson.age > secondPerson.age) {
+    const ageGap = firstPerson.age - secondPerson.age;
+    return (
+      firstPerson.name +
+      " is " +
+      ageGap +
+      " years older than " +
+      secondPerson.name
+    );
+  } else {
+    const ageGap = secondPerson.age - firstPerson.age;
+    return (
+      secondPerson.name +
+      " is " +
+      ageGap +
+      " years older than " +
+      firstPerson.name
+    );
+  }
+  // const isFirstPersonOlder = firstPerson.age > secondPerson.age;
+  // const ageGap = firstPerson.age - secondPerson.age;
+  // console.log(
+  //   "Is " +
+  //     firstPerson.name +
+  //     " older than " +
+  //     secondPerson.name +
+  //     "? " +
+  //     isFirstPersonOlder
+  // );
+  // console.log(
+  //   "The age difference between " +
+  //     firstPerson.name +
+  //     " and " +
+  //     secondPerson.name +
+  //     " is " +
+  //     ageGap +
+  //     " years."
+  // );
+}
+
+console.log(whoIsOlder(personB, personC));
