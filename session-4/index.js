@@ -111,6 +111,10 @@ function whoIsOlder(firstPerson, secondPerson) {
       " years older than " +
       secondPerson.name
     );
+    // } else if (firstPerson.age === secondPerson.age) {
+    //   return (
+    //     secondPerson.name + " and " + firstPerson.name + " are the same age."
+    //   );
   } else {
     const ageGap = secondPerson.age - firstPerson.age;
     return (
