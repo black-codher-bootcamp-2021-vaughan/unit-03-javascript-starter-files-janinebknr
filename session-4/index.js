@@ -74,3 +74,8 @@ console.log(3 * x + y);
 console.log(x / x + y);
 
 // ****************************************************TASK 3****************************************************
+
+const myAge = 36;
+const drivingAge = 17;
+const oldEnough = myAge >= drivingAge;
+console.log("Am I old enough to drive? " + oldEnough);
