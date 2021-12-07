@@ -1,3 +1,4 @@
+/* TASK 1 - Grading Function */
 function getGrade(total) {
   if (total > 90) {
     return "A+";
