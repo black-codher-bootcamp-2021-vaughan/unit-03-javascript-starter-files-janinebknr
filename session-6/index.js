@@ -12,3 +12,8 @@ while (count < 10) {
 }
 
 // ****************************************************TASK 2****************************************************
+
+for (let count2 = 0; count2 < 10; count2++) {
+  const randomNumber2 = Math.round(Math.random() * 10);
+  console.log(randomNumber2);
+}
