@@ -4,6 +4,36 @@ animals.pop();
 console.log(animals);
 
 // ****************************************************TASK 2****************************************************
+const names = [
+  "Hayley",
+  "Sara",
+  "Seth",
+  "Dawn",
+  "Geoffrey",
+  "Alex",
+  "Janine",
+  "Shan",
+  "Dominique",
+  "Zara",
+];
+console.log(names);
+
+// Sort names in ascending order
+names.sort();
+console.log(names);
+
+// Sort names in descending order
+names.sort().reverse();
+console.log(names);
+
+const numArray = [5, 325, 67, 100000, 150];
+console.log(numArray);
+
+// Sort numbers in ascending order
+numArray.sort(function (a, b) {
+  return a - b;
+});
+console.log(numArray);
 
 // ****************************************************TASK 3****************************************************
 
